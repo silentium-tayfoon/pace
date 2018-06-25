@@ -1,6 +1,24 @@
 pace
 ====
 
+USAGE in webpack 4
+
+// to react on all methods, by default only GET
+const paceOptions = {
+	ajax: {
+		trackMethods: ['GET', 'POST', 'DELETE', 'PUT', 'PATCH']
+	}
+};
+
+// include pace
+const Pace = require('pace-js');
+
+// run pace with options
+Pace.start(paceOptions);
+
+// don't forget to include css file;
+
+###===================
 <a href="https://eager.io/app/kYKTiQjoVjQk/install?source=button">
   <img src="https://install.eager.io/install-button.png" border="0" width="126">
 </a>
