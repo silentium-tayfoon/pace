@@ -1,7 +1,7 @@
 {
-  "name": "pace",
+  "name": "pace-js-amd-fix",
   "version": "1.0.3",
-  "description": "Automatic page load progress bar",
+  "description": "Automatic page load progress bar. This is fork of 'pace-js' with fix for amd loader.",
   "authors": [
     "Zack Bloom <zackbloom@gmail.com>",
     "Adam Schwartz <adam.flynn.schwartz@gmail.com>"
